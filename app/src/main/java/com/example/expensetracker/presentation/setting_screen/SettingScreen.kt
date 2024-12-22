@@ -67,6 +67,7 @@ fun SettingScreen(
                     1 -> {
                         LimitContent(modalBottomSheetState, scope)
                     }
+
                     2 -> {
                         EraseContent(modalBottomSheetState, scope)
                     }
@@ -115,8 +116,7 @@ fun SettingScreen(
                         EraseSetting(modalBottomSheetState, scope) {
                             sheetRankState.value = it
                         }
-
-                        Text(
+                        /*Text(
                             text = "App",
                             style = MaterialTheme.typography.subtitle1,
                             color = Color.DarkGray.copy(alpha = 0.8f),
@@ -134,7 +134,7 @@ fun SettingScreen(
 
                         PrivacySetting()
 
-                        VersionSetting()
+                        VersionSetting()*/
                     }
                 }
             }
